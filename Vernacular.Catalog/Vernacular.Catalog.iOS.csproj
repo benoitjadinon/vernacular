@@ -36,7 +36,6 @@
   <ItemGroup>
     <Folder Include="Resources\" />
   </ItemGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Compile Include="Vernacular\AndroidCatalog.cs" />
     <Compile Include="Vernacular\Catalog.cs" />
@@ -51,4 +50,5 @@
     <Compile Include="Vernacular\ResourceIdType.cs" />
     <Compile Include="Vernacular\ResourceString.cs" />
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
 </Project>

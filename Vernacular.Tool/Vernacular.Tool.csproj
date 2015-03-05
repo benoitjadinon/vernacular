@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{FA2384C6-90E1-4419-A3AB-FD3318354B8D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Vernacular</RootNamespace>
@@ -24,6 +22,8 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>True</DebugSymbols>
@@ -33,10 +33,10 @@
     <DefineConstants>DEBUG;LINQ;VERNACULAR_TOOL</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Externalconsole>True</Externalconsole>
     <NoWarn>1685</NoWarn>
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Commandlineparameters>--output=test.pot --input=/Users/benoit/Workspaces/Xamarin/Certipad/Certipad.iOS/bin/iPhoneSimulator/Debug --generator=po --verbose --log</Commandlineparameters>
+    <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|AnyCPU'">
     <DebugSymbols>True</DebugSymbols>
